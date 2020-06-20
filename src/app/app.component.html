@@ -1,0 +1,10 @@
+<div *transloco="let t">{{t('NORMAL')}}</div>
+
+<div *transloco="let t; read: 'NEST'">
+  <div>{{t('NESTED_1')}}</div>
+
+  <p>{{t( condition ? 'NEST_A': 'NEST_B')}}</p>
+</div>
+<ng-container >
+</ng-container>
+
