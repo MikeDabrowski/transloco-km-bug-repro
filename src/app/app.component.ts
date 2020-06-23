@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'transloco-km-bug-repro';
-
+  vara = 'NEST_A';
+  varb = 'NEST_B';
   get condition() {return true}
 }
