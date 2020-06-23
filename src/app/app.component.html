@@ -3,6 +3,7 @@
 <div *transloco="let t; read: 'NEST'">
   <div>{{t('NESTED_1')}}</div>
 
+  <!-- t(NEST_A, NEST_B) -->
   <p>This is the problem: {{t( condition ? 'NEST_A' : 'NEST_B')}}</p>
 </div>
 <ng-container >

@@ -1,4 +1,6 @@
 {
   "NORMAL": "Missing value for 'NORMAL'",
-  "NEST.NESTED_1": "Missing value for 'NEST.NESTED_1'"
+  "NEST.NESTED_1": "Missing value for 'NEST.NESTED_1'",
+  "NEST_A": "Missing value for 'NEST_A'",
+  "NEST_B": "Missing value for 'NEST_B'"
 }
